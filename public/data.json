@@ -1,0 +1,98 @@
+[
+	{
+		"id": 1,
+		"title": "Histórico Empresarial",
+		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
+		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
+		"description": "O aplicativo Histórico Empresarial permite ao usuário ter acesso a todos os fatos e acontecimentos relevantes de uma empresa desde o seu ano de fundação.",
+		"price": 40
+	},
+	{
+		"id": 2,
+		"title": "Reguladores",
+		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
+		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
+		"description": "O aplicativo Reguladores permite ao usuário acompanhar sua situação governamental.",
+		"price": 24.99
+	},
+	{
+		"id": 3,
+		"title": "Sócio Ambiental",
+		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
+		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
+		"description": "O aplicativo Sócio Ambiental permite ao usuário fiscalizar toda sua contribuição com a natureza.",
+		"price": 29.99
+	},
+	{
+		"id": 4,
+		"title": "Jurídico",
+		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
+		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
+		"description": "O aplicativo Jurídico permite ao usuário acompanhar sua situação perante a lei.",
+		"price": 49.99
+	},
+	{
+		"id": 5,
+		"title": "Listas Restritivas",
+		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
+		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
+		"description": "O aplicativo Listas Restritivas permite ao usuário bloquear informações indesejadas em seu sistema.",
+		"price": 9.99
+	},
+	{
+		"id": 6,
+		"title": "Mídia / Internet",
+		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
+		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
+		"description": "O aplicativo de Mídia e Internet permite ao usuário acompanhar e fiscalizar o andamento de suas campanhas de marketing digital.",
+		"price": 59.99
+	},
+	{
+		"id": 7,
+		"title": "Bens e Imóveis",
+		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
+		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
+		"description": "O aplicativo Bens e Imóveis permite ao usuário ter acesso a todos os seus bens e imóveis de forma a encontrar a melhor forma de administra-los.",
+		"price": 15.99
+	},
+	{
+		"id": 8,
+		"title": "Cadastro",
+		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
+		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
+		"description": "O aplicativo Cadastro permite ao usuário cadastrar novos clientes no sistema de seu negócio.",
+		"price": 19.99
+	},
+	{
+		"id": 9,
+		"title": "Financeiro",
+		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
+		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
+		"description": "O aplicativo Financeiro permite ao usuário ter acesso a todos os fatos e acontecimentos relevantes para seu bolso.",
+		"price": 149.99
+	},
+	{
+		"id": 10,
+		"title": "Financeiro VIP",
+		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
+		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
+		"description": "O aplicativo Financeiro VIP além das funções padrões também é integrado a B3.",
+		"price": 199.99
+	},
+	{
+		"id": 11,
+		"title": "Sócio Ambiental VIP",
+		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
+		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
+		"description": "O aplicativo Sócio Ambiental VIP além das funções padrões também te mantém atualizado sobre a aquecimento global.",
+		"price": 49.99
+	},
+	{
+		"id": 12,
+		"title": "Jurídico VIP",
+		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
+		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
+		"description": "O aplicativo Jurídico VIP além das funções padrões também acompanha uma consultoria grátis a cada 2 meses.",
+		"price": 89.99
+	}
+]
