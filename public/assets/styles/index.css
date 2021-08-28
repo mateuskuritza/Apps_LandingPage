@@ -52,4 +52,26 @@ table {
   border-spacing: 0;
 }
 
+strong {
+  font-weight: bold;
+}
+
+.c-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+.c-logo svg {
+  margin-right: 5px;
+}
+
+.c-logo--dark {
+  color: #b1b1b1;
+}
+.c-logo--dark span {
+  color: #000000;
+}
+
 /*# sourceMappingURL=index.css.map */
