@@ -2,6 +2,6 @@ import Logo from "../logo";
 
 export default function Poster() {
     return (
-        <Logo darkTheme />
+        <Logo darkTheme text="Histórico Empresarial" />
     )
 }
