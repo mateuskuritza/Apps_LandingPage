@@ -4,5 +4,10 @@ export default interface fakeData {
     mainImageUrl: string,
     secondaryImageUrl: string,
     description: string,
-    price: number
+    price: number,
+    screens: {
+        id: number,
+        imageUrl: string,
+        description: string
+    }[]
 };
