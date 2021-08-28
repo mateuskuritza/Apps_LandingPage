@@ -1,4 +1,6 @@
-export default async function getData() {
+import fakeData from "./interfaces/fakeData"
+
+export default async function getData(): Promise<fakeData[]> {
     const result = await fetch(
         'data.json',
         {
