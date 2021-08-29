@@ -1,6 +1,7 @@
 export default interface fakeData {
     id: number,
     title: string,
+    releaseDate: string,
     mainImageUrl: string,
     secondaryImageUrl: string,
     description: string,
