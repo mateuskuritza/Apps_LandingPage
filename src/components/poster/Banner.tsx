@@ -13,7 +13,7 @@ export default function Banner({ data, lightTheme = true }: { data: fakeData, li
                 <p>{data.description}</p>
                 <div>
                     <p><span>R$</span>{data.price.toFixed(2).replace('.', ",")}</p>
-                    <Link to={`details/${data.id}`}>Saiba mais</Link>
+                    <Link to={"/details/" + data.id}>Saiba mais</Link>
                 </div>
             </div>
             <div className="c-image" />
