@@ -2,6 +2,7 @@
 	{
 		"id": 1,
 		"title": "Histórico Empresarial",
+		"releaseDate": "01/01/2021",
 		"iconUrl": "https://image.flaticon.com/icons/png/512/2910/2910791.png",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
@@ -28,6 +29,7 @@
 	{
 		"id": 2,
 		"title": "Reguladores",
+		"releaseDate": "01/02/2021",
 		"iconUrl": "https://img-premium.flaticon.com/png/512/1821/premium/1821688.png?token=exp=1630277191~hmac=3f5bf0e4997d12e8c55ca70fb087e87b",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
@@ -54,6 +56,7 @@
 	{
 		"id": 3,
 		"title": "Sócio Ambiental",
+		"releaseDate": "01/03/2021",
 		"iconUrl": "https://img-premium.flaticon.com/png/512/2225/premium/2225516.png?token=exp=1630277228~hmac=8d08a0b37a0f19a3705efeadb30e8d33",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
@@ -80,6 +83,7 @@
 	{
 		"id": 4,
 		"title": "Jurídico",
+		"releaseDate": "01/04/2021",
 		"iconUrl": "https://image.flaticon.com/icons/png/512/1176/1176562.png",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
@@ -106,6 +110,7 @@
 	{
 		"id": 5,
 		"title": "Listas Restritivas",
+		"releaseDate": "01/05/2021",
 		"iconUrl": "https://image.flaticon.com/icons/png/512/838/838412.png",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
@@ -132,6 +137,7 @@
 	{
 		"id": 6,
 		"title": "Mídia / Internet",
+		"releaseDate": "07/01/2021",
 		"iconUrl": "https://image.flaticon.com/icons/png/512/44/44536.png",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
@@ -158,6 +164,7 @@
 	{
 		"id": 7,
 		"title": "Bens e Imóveis",
+		"releaseDate": "05/03/2021",
 		"iconUrl": "https://image.flaticon.com/icons/png/512/636/636499.png",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
@@ -184,6 +191,7 @@
 	{
 		"id": 8,
 		"title": "Cadastro",
+		"releaseDate": "01/01/2020",
 		"iconUrl": "https://image.flaticon.com/icons/png/512/10/10522.png",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
@@ -210,6 +218,7 @@
 	{
 		"id": 9,
 		"title": "Financeiro",
+		"releaseDate": "01/10/2021",
 		"iconUrl": "https://image.flaticon.com/icons/png/512/2465/2465621.png",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
@@ -236,6 +245,7 @@
 	{
 		"id": 10,
 		"title": "Financeiro",
+		"releaseDate": "02/05/2021",
 		"iconUrl": "https://image.flaticon.com/icons/png/512/2465/2465621.png",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
@@ -262,6 +272,7 @@
 	{
 		"id": 11,
 		"title": "Sócio Ambiental",
+		"releaseDate": "01/06/2021",
 		"iconUrl": "https://img-premium.flaticon.com/png/512/2225/premium/2225516.png?token=exp=1630277228~hmac=8d08a0b37a0f19a3705efeadb30e8d33",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
@@ -288,6 +299,7 @@
 	{
 		"id": 12,
 		"title": "Jurídico",
+		"releaseDate": "25/05/2021",
 		"iconUrl": "https://image.flaticon.com/icons/png/512/1176/1176562.png",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
