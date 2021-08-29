@@ -17,6 +17,26 @@ const CategoriesContainer = styled.div`
     border-radius: 5px;
     box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
 
+    @media (max-width: 760px){
+        width: 100%;
+        overflow: scroll;
+        overflow-y: hidden;
+
+        ::-webkit-scrollbar {
+        height: 5px;
+        background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+        background: #888;
+        
+        :hover{
+            background: #ff6600;
+        }
+    }
+
+    }
+
     > div:first-of-type{
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;

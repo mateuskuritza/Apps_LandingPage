@@ -20,6 +20,8 @@ const CategoryContainer = styled.div`
     padding: 5px;
     background-color: #f0efef;
     width: 100%;
+    min-width: 80px;
+
     p{
         text-align: center;
     }
