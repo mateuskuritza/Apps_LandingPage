@@ -9,6 +9,7 @@ import fakeData from './interfaces/fakeData';
 
 import "./assets/styles/reset.css";
 import "./assets/styles/style.css";
+import Details from './pages/details';
 
 function App() {
 
@@ -27,6 +28,9 @@ function App() {
             <Switch>
                 <Route path="/" exact>
                     <Home data={data} />
+                </Route>
+                <Route path="/details/:id" exact>
+                    <Details />
                 </Route>
             </Switch>
         </Router>

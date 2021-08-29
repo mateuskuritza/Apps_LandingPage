@@ -226,7 +226,7 @@
 	},
 	{
 		"id": 10,
-		"title": "Financeiro VIP",
+		"title": "Financeiro",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
 		"description": "O aplicativo Financeiro VIP além das funções padrões também é integrado a B3.",
@@ -251,7 +251,7 @@
 	},
 	{
 		"id": 11,
-		"title": "Sócio Ambiental VIP",
+		"title": "Sócio Ambiental",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
 		"description": "O aplicativo Sócio Ambiental VIP além das funções padrões também te mantém atualizado sobre a aquecimento global.",
@@ -276,7 +276,7 @@
 	},
 	{
 		"id": 12,
-		"title": "Jurídico VIP",
+		"title": "Jurídico",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
 		"description": "O aplicativo Jurídico VIP além das funções padrões também acompanha uma consultoria grátis a cada 2 meses.",
