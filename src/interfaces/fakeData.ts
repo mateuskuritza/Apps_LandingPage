@@ -5,6 +5,7 @@ export default interface fakeData {
     secondaryImageUrl: string,
     description: string,
     price: number,
+    iconUrl: string,
     screens: {
         id: number,
         imageUrl: string,

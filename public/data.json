@@ -2,6 +2,7 @@
 	{
 		"id": 1,
 		"title": "Histórico Empresarial",
+		"iconUrl": "https://image.flaticon.com/icons/png/512/2910/2910791.png",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
 		"description": "O aplicativo Histórico Empresarial permite ao usuário ter acesso a todos os fatos e acontecimentos relevantes de uma empresa desde o seu ano de fundação.",
@@ -27,6 +28,7 @@
 	{
 		"id": 2,
 		"title": "Reguladores",
+		"iconUrl": "https://img-premium.flaticon.com/png/512/1821/premium/1821688.png?token=exp=1630277191~hmac=3f5bf0e4997d12e8c55ca70fb087e87b",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
 		"description": "O aplicativo Reguladores permite ao usuário acompanhar sua situação governamental.",
@@ -52,6 +54,7 @@
 	{
 		"id": 3,
 		"title": "Sócio Ambiental",
+		"iconUrl": "https://img-premium.flaticon.com/png/512/2225/premium/2225516.png?token=exp=1630277228~hmac=8d08a0b37a0f19a3705efeadb30e8d33",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
 		"description": "O aplicativo Sócio Ambiental permite ao usuário fiscalizar toda sua contribuição com a natureza.",
@@ -77,6 +80,7 @@
 	{
 		"id": 4,
 		"title": "Jurídico",
+		"iconUrl": "https://image.flaticon.com/icons/png/512/1176/1176562.png",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
 		"description": "O aplicativo Jurídico permite ao usuário acompanhar sua situação perante a lei.",
@@ -102,6 +106,7 @@
 	{
 		"id": 5,
 		"title": "Listas Restritivas",
+		"iconUrl": "https://image.flaticon.com/icons/png/512/838/838412.png",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
 		"description": "O aplicativo Listas Restritivas permite ao usuário bloquear informações indesejadas em seu sistema.",
@@ -127,6 +132,7 @@
 	{
 		"id": 6,
 		"title": "Mídia / Internet",
+		"iconUrl": "https://image.flaticon.com/icons/png/512/44/44536.png",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
 		"description": "O aplicativo de Mídia e Internet permite ao usuário acompanhar e fiscalizar o andamento de suas campanhas de marketing digital.",
@@ -152,6 +158,7 @@
 	{
 		"id": 7,
 		"title": "Bens e Imóveis",
+		"iconUrl": "https://image.flaticon.com/icons/png/512/636/636499.png",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
 		"description": "O aplicativo Bens e Imóveis permite ao usuário ter acesso a todos os seus bens e imóveis de forma a encontrar a melhor forma de administra-los.",
@@ -177,6 +184,7 @@
 	{
 		"id": 8,
 		"title": "Cadastro",
+		"iconUrl": "https://image.flaticon.com/icons/png/512/10/10522.png",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
 		"description": "O aplicativo Cadastro permite ao usuário cadastrar novos clientes no sistema de seu negócio.",
@@ -202,6 +210,7 @@
 	{
 		"id": 9,
 		"title": "Financeiro",
+		"iconUrl": "https://image.flaticon.com/icons/png/512/2465/2465621.png",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
 		"description": "O aplicativo Financeiro permite ao usuário ter acesso a todos os fatos e acontecimentos relevantes para seu bolso.",
@@ -227,6 +236,7 @@
 	{
 		"id": 10,
 		"title": "Financeiro",
+		"iconUrl": "https://image.flaticon.com/icons/png/512/2465/2465621.png",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
 		"description": "O aplicativo Financeiro VIP além das funções padrões também é integrado a B3.",
@@ -252,6 +262,7 @@
 	{
 		"id": 11,
 		"title": "Sócio Ambiental",
+		"iconUrl": "https://img-premium.flaticon.com/png/512/2225/premium/2225516.png?token=exp=1630277228~hmac=8d08a0b37a0f19a3705efeadb30e8d33",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
 		"description": "O aplicativo Sócio Ambiental VIP além das funções padrões também te mantém atualizado sobre a aquecimento global.",
@@ -277,6 +288,7 @@
 	{
 		"id": 12,
 		"title": "Jurídico",
+		"iconUrl": "https://image.flaticon.com/icons/png/512/1176/1176562.png",
 		"mainImageUrl": "https://i.imgur.com/qRvzPA1.png",
 		"secondaryImageUrl": "https://i.imgur.com/i3KJ3y7.jpg",
 		"description": "O aplicativo Jurídico VIP além das funções padrões também acompanha uma consultoria grátis a cada 2 meses.",
