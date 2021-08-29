@@ -1,0 +1,14 @@
+/*.c-logo--dark{
+    color: #b1b1b1;
+    p, span{
+        color: #000000;
+    }
+}*/
+
+.vertical-bar{
+    content: "";
+    width: 2px;
+    height: 20px;
+    background-color: rgb(177, 177, 177);
+    margin: 0 10px;
+}

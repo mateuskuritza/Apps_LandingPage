@@ -7,6 +7,9 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import fakeData from './interfaces/fakeData';
 
+import "./assets/styles/reset.css";
+import "./assets/styles/style.css";
+
 function App() {
 
     const [data, setData] = useState<fakeData[]>([]);
@@ -22,7 +25,9 @@ function App() {
     return (
         <Router>
             <Switch>
-                <Route path="/" exact component={() => Home(data)} />
+                <Route path="/" exact>
+                    <Home data={data} />
+                </Route>
             </Switch>
         </Router>
     );

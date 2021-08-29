@@ -1,22 +1,26 @@
-import { useState, useEffect } from "react"
+import styled from 'styled-components';
 import { BsFillBarChartFill as IconChart } from "react-icons/bs";
 
-export default function Logo({ darkTheme, text }: { darkTheme?: boolean, text: string }) {
-
-    const [modifyStyle, setModifyStyle] = useState<string>('');
-
-    useEffect(() => {
-        if (darkTheme) {
-            setModifyStyle(" c-logo--dark");
-        }
-    }, [])
+export default function Logo({ title }: { title: string }) {
 
     return (
-        <div className={`c-logo` + modifyStyle}>
+        <ContainerLogo className="c-logo">
             <IconChart />
             <strong>up<span>Miner</span></strong>
             <div className="vertical-bar"></div>
-            <p>{text}</p>
-        </div>
+            <p>{title}</p>
+        </ContainerLogo>
     )
 }
+
+const ContainerLogo = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.5em;
+
+    svg{
+        margin-right: 5px;
+    }
+`;
