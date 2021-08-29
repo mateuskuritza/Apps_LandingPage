@@ -12,7 +12,7 @@ export default function Details() {
 
     useEffect(() => {
         getData().then(r => {
-            setData(r.filter(r => r.id === parseInt(id)));
+            setData(r);
         });
     }, [id]);
 
