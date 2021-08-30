@@ -11,7 +11,7 @@ export default function Cards({ data, selectedCategory }: { data: fakeData[], se
     const [orderBy, setOrderBy] = useState<string>("Preço");
 
     function filterData() {
-        let newData = data;
+        let newData = data.sort((a, b) => a.price - b.price);
         if (selectedCategory === 'Todos') {
             return setFilteredData(newData);
         }
