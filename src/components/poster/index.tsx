@@ -10,6 +10,7 @@ export default function Poster({ data, lightTheme = false }: { data: fakeData[],
     const settings = useMemo(() => {
         return ({
             dots: true,
+            arrows: false,
             infinite: true,
             speed: 700,
             slidesToShow: 1,
@@ -36,6 +37,7 @@ export default function Poster({ data, lightTheme = false }: { data: fakeData[],
 }
 
 const ContainerPoster = styled.div<ThemeLogo>`
+    width: 100vw;
     .slick-dots{
         top: calc(100% - 35px);
         button::before{
