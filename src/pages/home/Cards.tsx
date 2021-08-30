@@ -3,27 +3,44 @@ import { useState } from "react";
 import styled from "styled-components";
 import Card from "../../components/card";
 import fakeData from "../../interfaces/fakeData";
+import dayjs from "dayjs";
 
 export default function Cards({ data, selectedCategory }: { data: fakeData[], selectedCategory: string }) {
 
     const [filteredData, setFilteredData] = useState<fakeData[]>([]);
+    const [orderBy, setOrderBy] = useState<string>("Preço");
 
     function filterData() {
+        let newData = data;
         if (selectedCategory === 'Todos') {
-            setFilteredData(data);
-        } else {
-            const newData = data.filter(element => element.title === selectedCategory);
-            setFilteredData(newData);
+            return setFilteredData(newData);
         }
+        setFilteredData(newData.filter(element => element.title === selectedCategory));
     }
 
     useEffect(filterData, [selectedCategory, data]);
+
+
+    function orderDataBy(order: string) {
+        let newData = filteredData;
+        if (order === "Preço") {
+            newData = newData.sort((a, b) => a.price - b.price);
+        }
+        if (order === "Lançamento") {
+            newData = newData.sort((a, b) => dayjs(a.releaseDate).valueOf() - dayjs(b.releaseDate).valueOf());
+        }
+        setOrderBy(order);
+        setFilteredData(newData);
+    }
 
     return (
         <CardsContainer>
             <div>
                 <strong>ORDENAR</strong>
-                <input type="select" />
+                <select value={orderBy} onChange={(event) => orderDataBy(event.target.value)}>
+                    <option value="Preço">Preço</option>
+                    <option value="Lançamento">Lançamento</option>
+                </select>
             </div>
             <div>
                 {filteredData.map(element => <Card key={element.id} data={element} />)}
@@ -38,6 +55,16 @@ const CardsContainer = styled.div`
         align-items: center;
         width: 100%;
         margin: 20px 0;
+
+        select {
+            margin: 0 10px;
+            width: 200px;
+            height: 30px;
+            border-radius: 3px;
+            padding-left: 5px;
+            border: 1px solid rgba(0,0,0,0.3);
+        }
+
     }
 
     > div:last-of-type{
