@@ -36,13 +36,13 @@ export default function Poster({ data, lightTheme = false }: { data: fakeData[],
 }
 
 const ContainerPoster = styled.div<ThemeLogo>`
-                .slick-dots{
-                    top: calc(100% - 35px);
-                button::before{
-                    color: ${props => props.lightTheme ? "black" : "white"};
+    .slick-dots{
+        top: calc(100% - 35px);
+        button::before{
+            color: ${props => props.lightTheme ? "black" : "white"};
         }
     }
-                .slick-dots li.slick-active button:before {
-                    color: ${props => props.lightTheme ? "black" : "white"};
+    .slick-dots li.slick-active button:before {
+        color: ${props => props.lightTheme ? "black" : "white"};
     }
-                `;
+`;
