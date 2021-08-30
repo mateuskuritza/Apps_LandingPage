@@ -1,8 +1,24 @@
+import { useEffect } from "react";
+import { useState } from "react";
 import styled from "styled-components";
 import Card from "../../components/card";
 import fakeData from "../../interfaces/fakeData";
 
-export default function Cards({ data }: { data: fakeData[] }) {
+export default function Cards({ data, selectedCategory }: { data: fakeData[], selectedCategory: string }) {
+
+    const [filteredData, setFilteredData] = useState<fakeData[]>([]);
+
+    function filterData() {
+        if (selectedCategory === 'Todos') {
+            setFilteredData(data);
+        } else {
+            const newData = data.filter(element => element.title === selectedCategory);
+            setFilteredData(newData);
+        }
+    }
+
+    useEffect(filterData, [selectedCategory, data]);
+
     return (
         <CardsContainer>
             <div>
@@ -10,7 +26,7 @@ export default function Cards({ data }: { data: fakeData[] }) {
                 <input type="select" />
             </div>
             <div>
-                {data.map(element => <Card data={element} />)}
+                {filteredData.map(element => <Card key={element.id} data={element} />)}
             </div>
         </CardsContainer>
     )

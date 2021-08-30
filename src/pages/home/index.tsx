@@ -8,7 +8,8 @@ import Categories from "./Categories";
 
 export default function Home({ data }: { data: fakeData[] }) {
 
-    const [categories, setCategories] = useState<{ title: string, iconUrl: string }[]>([])
+    const [categories, setCategories] = useState<{ title: string, iconUrl: string }[]>([]);
+    const [selectedCategory, setSelectedCategory] = useState<string>('Todos');
 
     useEffect(() => uniqueCategories(data), [data]);
 
@@ -25,8 +26,8 @@ export default function Home({ data }: { data: fakeData[] }) {
         <>
             <Poster data={data} />
             <HomeContainer>
-                <Categories categories={categories} />
-                <Cards data={data} />
+                <Categories categories={categories} selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
+                <Cards data={data} selectedCategory={selectedCategory} />
             </HomeContainer>
         </>
     )

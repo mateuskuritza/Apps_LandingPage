@@ -1,10 +1,11 @@
 import styled from "styled-components";
 import Category from "../../components/category";
 
-export default function Categories({ categories }: { categories: { title: string, iconUrl: string }[] }) {
+export default function Categories({ categories, selectedCategory, setSelectedCategory }: { categories: { title: string, iconUrl: string }[], selectedCategory: string, setSelectedCategory: Function }) {
+
     return (
         <CategoriesContainer>
-            {categories.map((category, i) => <Category key={i} title={category.title} iconUrl={category.iconUrl} />)}
+            {categories.map((category, i) => <Category selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} key={i} title={category.title} iconUrl={category.iconUrl} />)}
         </CategoriesContainer>
     )
 }
