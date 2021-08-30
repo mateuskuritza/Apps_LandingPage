@@ -1,7 +1,9 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import styled from "styled-components";
 import Poster from "../../components/poster";
 import fakeData from "../../interfaces/fakeData";
+import Cards from "./Cards";
 import Categories from "./Categories";
 
 export default function Home({ data }: { data: fakeData[] }) {
@@ -22,7 +24,14 @@ export default function Home({ data }: { data: fakeData[] }) {
     return (
         <>
             <Poster data={data} />
-            <Categories categories={categories} />
+            <HomeContainer>
+                <Categories categories={categories} />
+                <Cards data={data} />
+            </HomeContainer>
         </>
     )
 }
+
+const HomeContainer = styled.div`
+    padding: 5px 15px;
+`;

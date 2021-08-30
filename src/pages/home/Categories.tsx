@@ -11,7 +11,6 @@ export default function Categories({ categories }: { categories: { title: string
 
 const CategoriesContainer = styled.div`
     margin: 10px auto;
-    width: 98%;
     height: 80px;
     display: flex;
     border-radius: 5px;
