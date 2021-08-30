@@ -1,46 +1,34 @@
-# Getting Started with Create React App
+# Apps_LandingPage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Acesse o projeto clicando <a href="https://apps-landing-page.vercel.app/">AQUI</a>!
 
-## Available Scripts
+<img src="./public/assets/images/preview.gif" align="center" />
 
-In the project directory, you can run:
+<br></br>
+## Tecnologias Utilizadas:
 
-### `npm start`
+| HTML                                                               	| CSS                                                               	| Typescript                                                             	| ReactJS                                                            	| 
+|--------------------------------------------------------------------	|-------------------------------------------------------------------	|------------------------------------------------------------------------	|--------------------------------------------------------------------	|
+| <img src="https://cdn.svgporn.com/logos/html-5.svg" width="45px"/> 	| <img src="https://cdn.svgporn.com/logos/css-3.svg" width="45px"/> 	| <img src="https://cdn.svgporn.com/logos/typescript-icon.svg" width="45px"/> 	| <img src="https://cdn.svgporn.com/logos/react.svg" width="45px"/> 	|
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Além disso também foi utilizado **React-router-dom** para a criação das rotas, **React-slick** para os carrosséis e **Styled-components** para a estilização.
 
-### `npm test`
+## Sobre
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Esse aplicativo web foi desenvolvido de forma que seja capaz de consultar uma API externa (no momento está sendo utilizado um arquivo JSON disponível na pasta public). Até o momento foram implementadas as seguintes funcionalidades:
 
-### `npm run build`
+- Filtro por categoria;
+- Ordenação por preço;
+- Ordenação por lançamento
+- Carrossel para a exibição das imagens;
+- Página de detalhes com informações especificas do APP selecionado.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Instruções de uso:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+  1. Clone esse repositório;
+  2. Na pasta clonada execute o comando para instalar as dependências:
+    ```npm i```
+  3. Após isso, inicie com o comando:
+    ```npm start```
+  4. Por fim acesse http://localhost:3000 no seu navegador preferido :)
